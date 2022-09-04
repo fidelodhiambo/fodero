@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/da6a0a8e01.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="banner " id="sec"> 
+        <header >
+
+            <a href="#" class="logo">Logo</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+
+        <div class="content">
+            <h2>Hello, I'm <br>
+            <span>Fidel </span> <span>Odhiambo</span></h2>
+            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore provident alias? Atque aut at mollitia voluptatum soluta quas similique qui molestias nemo. Suscipit delectus vel incidunt consectetur iste dolore reiciendis libero ipsa. Hic, cupiditate delectus quam pariatur saepe ab.</p>
+        
+            <a href="#">Know More</a>
+        </div>
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook  fa-2xl"></i></a></i></li><br>
+            <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube  fa-2xl"></i></a></i></li><br>
+            <li><a href="https://wa.me/+254793932773"><i class="fa-brands fa-whatsapp  fa-2xl"></i></a></i></li><br>
+            <li><a href="#"><i class="fa-brands fa-spotify  fa-2xl"></i></a></li>
+
+
+        </ul>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle(){
+            var sec=document.getElementById('sec');
+            var nav=document.getElementById('navigation');
+            sec.classList.toggle('active')
+            nav.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
