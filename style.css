@@ -18,13 +18,17 @@ header{
 header .logo{
     position: relative;
     font-weight: 700;
-    color: #E13620;
+    color:#E13620;
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: .6s;
     text-decoration: none;
 
+}
+header .logo:hover{
+    text-decoration: underline;
+    padding-left: 3px;
 }
 header #toggle{
 position: relative;
@@ -63,7 +67,7 @@ transform: translate(-50%,-50%) rotate(45deg);
     width: 100%;
     padding: 100px;
     min-height: 100vh;
-    background: url(./images/pexels-asad-photo-maldives-13262090.jpg);
+    background: url(./images/8.jpg);
     background-size: cover;
     display: flex;
 
@@ -107,6 +111,7 @@ transform: translate(-50%,-50%) rotate(45deg);
     text-transform: uppercase;
     
 }
+
 .content{
     max-width: 600px;
 }
@@ -151,11 +156,14 @@ transform: translate(-50%,-50%) rotate(45deg);
      place-items: center;
      padding-top: 50px;
      text-decoration: none;
-     color: #000;
+     color: white;
      
 }
 .sci li a:hover{
     color: #E13620;
+    text-decoration: underline;
+   
+    padding-right: 5px;
 }
 @media (max-width:767px) {
     header{
